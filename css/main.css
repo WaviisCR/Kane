@@ -7,21 +7,31 @@
   color: #2C3E50; }
 
 /*UNIVERSAL*/
-body a {
-  text-decoration: none; }
-body p {
-  color: #fff; }
+body {
+  text-align: center; }
+  body a {
+    text-decoration: none; }
+  body p {
+    color: #fff; }
 
 /*head*/
 header {
   background-color: #27ad60; }
   header .nav li a:hover, header .nav li a:focus {
     background-color: #E67E22; }
+  header .navbar-right {
+    margin-top: 2%; }
 
 #hero {
   background: url(../img/carousel-bg.jpg);
-  padding: 10%;
+  background-size: cover;
+  padding: 3% 7%;
   color: #fff; }
+  #hero h1 {
+    font-size: 5em; }
+  #hero p {
+    font-size: 2em;
+    font-weight: 300; }
 
 /*MIXINS SECTIONS*/
 #about, #prices, #clients, #contact {
@@ -264,6 +274,9 @@ header {
   background-size: cover; }
   #social .social-icons {
     padding: 14%; }
+    #social .social-icons a {
+      margin-left: 1%;
+      margin-right: 1%; }
 
 /*FOOTER*/
 footer {

@@ -22,6 +22,8 @@ body {
     p {
         color: $white;
     }
+
+    text-align: center;
 }
 
 /*head*/
@@ -36,13 +38,27 @@ header {
                 }
             }
         }
+
+    }
+    .navbar-right{
+            margin-top: 2%;
     }
 }
 
 #hero {
     background: url(../img/carousel-bg.jpg);
-    padding: 10%;
+    background-size: cover;
+    padding: 3% 7%;
     color: $white;
+
+    h1 {
+        font-size: 5em;
+    }
+
+    p {
+        font-size: 2em;
+        font-weight: 300;
+    }
 }
 
 /*MIXINS SECTIONS*/
@@ -182,6 +198,11 @@ header {
 
     .social-icons {
         padding: 14%;
+
+        a {
+            margin-left: 1%;
+            margin-right: 1%;
+        }
     }
 }
 
