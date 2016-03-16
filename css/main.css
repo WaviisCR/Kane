@@ -1,0 +1,263 @@
+/*VARIABLES PARA COLORES*/
+/*COLOR CLASS*/
+.white {
+  color: #fff; }
+
+.blue {
+  color: #2C3E50; }
+
+/*UNIVERSAL*/
+body a {
+  text-decoration: none; }
+body p {
+  color: #fff; }
+
+/*head*/
+header {
+  background-color: #27ad60; }
+  header .nav li a:hover, header .nav li a:focus {
+    background-color: #E67E22; }
+
+#hero {
+  background: url(../img/carousel-bg.jpg);
+  padding: 10%;
+  color: #fff; }
+
+/*MIXINS SECTIONS*/
+#about, #prices, #clients, #contact {
+  padding: 3%;
+  font-family: "roboto";
+  color: white;
+  text-align: center;
+  background-color: #2C3E50; }
+
+#what-we-do, #team {
+  padding: 3%;
+  font-family: "roboto";
+  color: white;
+  text-align: center;
+  background-color: #27ad60; }
+
+/*PALETAAAAA*/
+.palette-colors .colors:first-child .bgcolor:first-child {
+  width: 20%;
+  height: 11em;
+  background-color: #69D2E7;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:first-child .bgcolor:nth-child(2) {
+  width: 20%;
+  height: 11em;
+  background-color: #A7DBDB;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:first-child .bgcolor:nth-child(3) {
+  width: 20%;
+  height: 11em;
+  background-color: #E0E4CC;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:first-child .bgcolor:nth-child(4) {
+  width: 20%;
+  height: 11em;
+  background-color: #F38630;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:first-child .bgcolor:last-child {
+  width: 20%;
+  height: 11em;
+  background-color: #FA6900;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(2) .bgcolor:first-child {
+  width: 20%;
+  height: 11em;
+  background-color: #E94C6F;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(2) .bgcolor:nth-child(2) {
+  width: 20%;
+  height: 11em;
+  background-color: #542733;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(2) .bgcolor:nth-child(3) {
+  width: 20%;
+  height: 11em;
+  background-color: #5A6A62;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(2) .bgcolor:nth-child(4) {
+  width: 20%;
+  height: 11em;
+  background-color: #C6D5CD;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(2) .bgcolor:last-child {
+  width: 20%;
+  height: 11em;
+  background-color: #FDF200;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(3) .bgcolor:first-child {
+  width: 20%;
+  height: 11em;
+  background-color: #DB3340;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(3) .bgcolor:nth-child(2) {
+  width: 20%;
+  height: 11em;
+  background-color: #E8B71A;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(3) .bgcolor:nth-child(3) {
+  width: 20%;
+  height: 11em;
+  background-color: #F7EAC8;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(3) .bgcolor:nth-child(4) {
+  width: 20%;
+  height: 11em;
+  background-color: #1FDA9A;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(3) .bgcolor:last-child {
+  width: 20%;
+  height: 11em;
+  background-color: #28ABE3;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(4) .bgcolor:first-child {
+  width: 20%;
+  height: 11em;
+  background-color: #588C73;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(4) .bgcolor:nth-child(2) {
+  width: 20%;
+  height: 11em;
+  background-color: #F2E394;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(4) .bgcolor:nth-child(3) {
+  width: 20%;
+  height: 11em;
+  background-color: #F2AE72;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(4) .bgcolor:nth-child(4) {
+  width: 20%;
+  height: 11em;
+  background-color: #D96459;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:nth-child(4) .bgcolor:last-child {
+  width: 20%;
+  height: 11em;
+  background-color: #8C4646;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:last-child .bgcolor:first-child {
+  width: 20%;
+  height: 11em;
+  background-color: #D0C91F;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:last-child .bgcolor:nth-child(2) {
+  width: 20%;
+  height: 11em;
+  background-color: #85C4B9;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:last-child .bgcolor:nth-child(3) {
+  width: 20%;
+  height: 11em;
+  background-color: #008BBA;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:last-child .bgcolor:nth-child(4) {
+  width: 20%;
+  height: 11em;
+  background-color: #DF514C;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+.palette-colors .colors:last-child .bgcolor:last-child {
+  width: 20%;
+  height: 11em;
+  background-color: #DC403B;
+  float: left;
+  margin-bottom: 1%;
+  margin-top: 1%; }
+
+/*SECTION*/
+.member {
+  background: url("../img/team/1.jpg") center center no-repeat;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  padding-top: 25px; }
+
+/*PRICE*/
+#prices {
+  padding: 120px 0px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 900; }
+  #prices h1 {
+    color: #fff; }
+
+.price-table {
+  border: 1px solid #27ad60; }
+  .price-table:hover {
+    background: #E67E22; }
+  .price-table .price-table-heading h3 {
+    color: #c1c1c1 !important; }
+  .price-table .the-price {
+    background-color: #27ad60; }
+  .price-table.table-feature {
+    border: 2px solid #E67E22; }
+    .price-table.table-feature:hover {
+      background: #E67E22; }
+
+/*SOCIAL*/
+#social {
+  background: url(../img/img-divider-img.jpg) repeat-y;
+  background-size: cover; }
+  #social .social-icons {
+    padding: 14%; }
+
+/*FOOTER*/
+footer {
+  background-color: #27ad60; }
+
+/*# sourceMappingURL=main.css.map */

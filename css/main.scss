@@ -1,0 +1,152 @@
+/*VARIABLES PARA COLORES*/
+$green: #27ad60;
+$orange: #E67E22;
+$dark-blue: #2C3E50;
+$white:#fff;
+/*COLOR CLASS*/
+.white{
+    color:$white;
+}
+.blue{
+    color: $dark-blue;
+}
+/*UNIVERSAL*/
+body{
+    a{
+        text-decoration: none;
+    }
+    p{
+        color: $white;
+    }
+}
+/*head*/
+header {
+    background-color: $green;
+    .nav {
+        li {
+            a {
+                &:hover, &:focus {
+                    background-color: $orange;
+                }
+            }
+        }
+    }
+}
+#hero{
+	background: url(../img/carousel-bg.jpg);
+	padding:10%; 
+	color:$white;
+}
+/*MIXINS SECTIONS*/
+@mixin section($bg) {
+    padding:3%;
+    font-family: "roboto";
+    color:white;
+    text-align:center;
+    background-color:$bg;
+}
+#about, #prices, #clients, #contact{
+    @include section (#2C3E50);
+}
+#what-we-do, #team{
+    @include section(#27ad60);
+}
+
+/*PALETAAAAA*/
+@mixin bgcolor($bgcolor){
+   width: 20%;
+   height: 11em;
+   background-color: $bgcolor;
+   float:left;
+   margin-bottom: 1%;
+   margin-top: 1%;
+}
+@mixin colors($color1, $color2, $color3, $color4, $color5){
+    .bgcolor:first-child{
+        @include bgcolor($color1);
+    }
+    .bgcolor:nth-child(2){
+        @include bgcolor($color2);
+    }
+    .bgcolor:nth-child(3){
+        @include bgcolor($color3);
+    }
+    .bgcolor:nth-child(4){
+        @include bgcolor($color4);
+    }
+    .bgcolor:last-child{
+        @include bgcolor($color5);
+    }
+}
+.palette-colors{
+    .colors:first-child{
+        @include colors(#69D2E7, #A7DBDB, #E0E4CC, #F38630, #FA6900);
+    }
+    .colors:nth-child(2){
+        @include colors(#E94C6F, #542733, #5A6A62, #C6D5CD, #FDF200);
+    }
+    .colors:nth-child(3){
+        @include colors(#DB3340, #E8B71A, #F7EAC8, #1FDA9A, #28ABE3);
+    }
+    .colors:nth-child(4){
+        @include colors(#588C73, #F2E394, #F2AE72, #D96459, #8C4646);
+    }
+    .colors:last-child{
+        @include colors(#D0C91F, #85C4B9, #008BBA, #DF514C, #DC403B);
+    }
+}
+
+/*SECTION*/
+.member{
+        background: url('../img/team/1.jpg') center center no-repeat;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+    }
+
+/*PRICE*/
+#prices {
+  padding: 120px 0px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 900;
+  h1 {
+    color: $white;
+  }
+}
+
+.price-table {
+  border: 1px solid $green;
+    &:hover {
+      background: $orange;
+    }
+    .price-table-heading h3 {
+      color: #c1c1c1 !important;
+    }
+    .the-price {
+      background-color: $green;
+    }
+    &.table-feature {
+      border: 2px solid $orange;
+      &:hover {
+        background: $orange;
+      }
+    }
+}
+/*SOCIAL*/
+#social{
+    background: url(../img/img-divider-img.jpg) repeat-y;
+    background-size:cover;
+    .social-icons{
+        padding:14%;
+    }    
+}
+/*FOOTER*/
+footer{
+    background-color:$green;
+}
