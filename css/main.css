@@ -249,6 +249,15 @@ header {
     .price-table.table-feature:hover {
       background: #E67E22; }
 
+/*.table > tbody {
+    tr{
+        background-color: $white;
+        &.active td {
+        background-color: rgba(143, 95, 56, 0.5);
+        }
+
+    }
+}*/
 /*SOCIAL*/
 #social {
   background: url(../img/img-divider-img.jpg) repeat-y;
